@@ -1,0 +1,2 @@
+# Depo
+YazılımYapımı
