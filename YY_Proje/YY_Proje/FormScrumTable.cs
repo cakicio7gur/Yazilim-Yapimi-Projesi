@@ -74,6 +74,26 @@ namespace YY_Proje
             adtr.Dispose();
             baglanti.Close();
         }
+        public void ınProgressGuncelle()
+        {
+            baglanti.Open();
+            dtst = new DataSet();
+            foreach (DataGridViewRow row in dgwInProgress.Rows)
+            {
+
+                bool isSelected = Convert.ToBoolean(row.Cells["SecimInProgress"].Value);
+                if (isSelected)
+                {
+                    SqlDataAdapter adtr = new SqlDataAdapter("UPDATE Kullanici SET DTeslimTarihi='" + row.Cells[2].Value + "',IPTeslimTarihi='" + null + "', InProgress='" + null + "' ,Done='" + row.Cells[1].Value + "'  WHERE InProgress='" + row.Cells[1].Value + "' AND IPTeslimTarihi='" + row.Cells[2].Value + "'", baglanti);
+                    adtr.Fill(dtst, "Kullanici");
+                    dgwDone.DataSource = dtst.Tables["Kullanici"];
+                    adtr.Dispose();
+                    baglanti.Close();
+                }
+
+            }
+
+        }
         
         public void doneGetir()
         {
@@ -85,7 +105,27 @@ namespace YY_Proje
             adtr.Dispose();
             baglanti.Close();
         }
-       
+        public void doneGuncelle()
+        {
+            baglanti.Open();
+            dtst = new DataSet();
+            foreach (DataGridViewRow row in dgwDone.Rows)
+            {
+
+                bool isSelected = Convert.ToBoolean(row.Cells["SecimDone"].Value);
+                if (isSelected)
+                {
+                    SqlDataAdapter adtr = new SqlDataAdapter("UPDATE Kullanici SET TeslimTarihi='" + row.Cells[2].Value + "',DTeslimTarihi='" + null + "', Done='" + null + "' ,NotStarted='" + row.Cells[1].Value + "'  WHERE Done='" + row.Cells[1].Value + "' AND DTeslimTarihi='" + row.Cells[2].Value + "'", baglanti);
+                    adtr.Fill(dtst, "Kullanici");
+                    dgwDone.DataSource = dtst.Tables["Kullanici"];
+                    adtr.Dispose();
+                    baglanti.Close();
+                }
+
+            }
+
+        }
+
 
         private void FormScrumTable_Load(object sender, EventArgs e)
         {
