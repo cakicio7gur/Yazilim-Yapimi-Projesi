@@ -1,0 +1,17 @@
+c:\users\lenovo\documents\visual studio 2013\Projects\YY_Proje\YY_Proje\bin\Debug\YY_Proje.exe.config
+c:\users\lenovo\documents\visual studio 2013\Projects\YY_Proje\YY_Proje\bin\Debug\YY_Proje.exe
+c:\users\lenovo\documents\visual studio 2013\Projects\YY_Proje\YY_Proje\bin\Debug\YY_Proje.pdb
+c:\users\lenovo\documents\visual studio 2013\Projects\YY_Proje\YY_Proje\obj\Debug\YY_Proje.csprojResolveAssemblyReference.cache
+c:\users\lenovo\documents\visual studio 2013\Projects\YY_Proje\YY_Proje\obj\Debug\YY_Proje.Properties.Resources.resources
+c:\users\lenovo\documents\visual studio 2013\Projects\YY_Proje\YY_Proje\obj\Debug\YY_Proje.csproj.GenerateResource.Cache
+c:\users\lenovo\documents\visual studio 2013\Projects\YY_Proje\YY_Proje\obj\Debug\YY_Proje.exe.licenses
+c:\users\lenovo\documents\visual studio 2013\Projects\YY_Proje\YY_Proje\obj\Debug\YY_Proje.exe
+c:\users\lenovo\documents\visual studio 2013\Projects\YY_Proje\YY_Proje\obj\Debug\YY_Proje.pdb
+c:\users\lenovo\documents\visual studio 2013\Projects\YY_Proje\YY_Proje\obj\Debug\YY_Proje.frmAnaSayfa.resources
+C:\Users\Lenovo\Documents\Visual Studio 2013\Projects\YY_Proje\YY_Proje\obj\Debug\YY_Proje.FormGuncelleVeListele.resources
+C:\Users\Lenovo\documents\visual studio 2013\Projects\YY_Proje\YY_Proje\obj\Debug\YY_Proje.FormScrumTable.resources
+C:\Users\Lenovo\documents\visual studio 2013\Projects\YY_Proje\YY_Proje\bin\Debug\EntityFramework.dll
+C:\Users\Lenovo\documents\visual studio 2013\Projects\YY_Proje\YY_Proje\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lenovo\documents\visual studio 2013\Projects\YY_Proje\YY_Proje\bin\Debug\EntityFramework.xml
+C:\Users\Lenovo\documents\visual studio 2013\Projects\YY_Proje\YY_Proje\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lenovo\documents\visual studio 2013\Projects\YY_Proje\YY_Proje\obj\Debug\YY_Proje.frmGiris.resources

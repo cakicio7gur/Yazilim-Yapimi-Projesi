@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ScrumModelStoreContainer" CdmEntityContainer="ScrumEntities">
+    <EntitySetMapping Name="Kullanici">
+      <EntityTypeMapping TypeName="ScrumModel.Kullanici">
+        <MappingFragment StoreEntitySet="Kullanici">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Baslik" ColumnName="Baslik" />
+          <ScalarProperty Name="Yazar" ColumnName="Yazar" />
+          <ScalarProperty Name="Tarih" ColumnName="Tarih" />
+          <ScalarProperty Name="Storie" ColumnName="Storie" />
+          <ScalarProperty Name="Task" ColumnName="Task" />
+          <ScalarProperty Name="Gorevli" ColumnName="Gorevli" />
+          <ScalarProperty Name="TaskTarihi" ColumnName="TaskTarihi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
