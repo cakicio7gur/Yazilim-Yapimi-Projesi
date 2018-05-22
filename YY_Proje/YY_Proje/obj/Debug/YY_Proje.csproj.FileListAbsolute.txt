@@ -15,3 +15,6 @@ C:\Users\Lenovo\documents\visual studio 2013\Projects\YY_Proje\YY_Proje\bin\Debu
 C:\Users\Lenovo\documents\visual studio 2013\Projects\YY_Proje\YY_Proje\bin\Debug\EntityFramework.xml
 C:\Users\Lenovo\documents\visual studio 2013\Projects\YY_Proje\YY_Proje\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Lenovo\documents\visual studio 2013\Projects\YY_Proje\YY_Proje\obj\Debug\YY_Proje.frmGiris.resources
+C:\Users\Lenovo\Documents\GitHub\Depo\YY_Proje\YY_Proje\bin\Debug\YY_Proje.exe.config
+C:\Users\Lenovo\Documents\GitHub\Depo\YY_Proje\YY_Proje\obj\Debug\YY_Proje.exe
+C:\Users\Lenovo\Documents\GitHub\Depo\YY_Proje\YY_Proje\obj\Debug\YY_Proje.pdb

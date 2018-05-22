@@ -40,6 +40,26 @@ namespace YY_Proje
             adtr.Dispose();
             baglanti.Close();
         }
+        public void notStartedGuncelle()
+        {
+            baglanti.Open();
+            dtst = new DataSet();
+            foreach (DataGridViewRow row in dgwNotStarted.Rows)
+            {
+
+                bool isSelected = Convert.ToBoolean(row.Cells["SecimNotStarted"].Value);
+                if (isSelected)
+                {
+                    SqlDataAdapter adtr = new SqlDataAdapter("UPDATE Kullanici SET IPTeslimTarihi='" + row.Cells[2].Value + "',TeslimTarihi='" + null + "', NotStarted='" + null + "' ,InProgress='" + row.Cells[1].Value + "' WHERE NotStarted='" + row.Cells[1].Value + "' AND TeslimTarihi='" + row.Cells[2].Value + "'", baglanti);
+                    adtr.Fill(dtst, "Kullanici");
+                    dgwDone.DataSource = dtst.Tables["Kullanici"];
+                    adtr.Dispose();
+                    baglanti.Close();
+                }
+
+            }
+
+        }
        
 
 
