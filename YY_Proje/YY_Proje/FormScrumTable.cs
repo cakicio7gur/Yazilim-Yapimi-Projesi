@@ -179,34 +179,43 @@ namespace YY_Proje
             ınProgressGetir();
             doneGetir();
             storyRenklendir();
-            
+            notStartedRenklendir();
+            ınProgressRenklendir();
+            doneRenklendir();
         }
 
         private void btnInProgressAktar_Click(object sender, EventArgs e)
         {
-            
+            notStartedGuncelle();
             notStartedGetir();
             ınProgressGetir();
             doneGetir();
-           
+            notStartedRenklendir();
+            ınProgressRenklendir();
+            doneRenklendir();
         }
 
         private void btnDoneAktar_Click(object sender, EventArgs e)
         {
-           
+            ınProgressGuncelle();
             notStartedGetir();
             ınProgressGetir();
             doneGetir();
+            notStartedRenklendir();
+            ınProgressRenklendir();
+            doneRenklendir();
             
         }
 
         private void btnNotStartedAktar_Click(object sender, EventArgs e)
         {
-            
+            doneGuncelle();
             notStartedGetir();
             ınProgressGetir();
             doneGetir();
-       
+            notStartedRenklendir();
+            ınProgressRenklendir();
+            doneRenklendir();
         }
         private void btnAnaSayfa_Click(object sender, EventArgs e)
         {

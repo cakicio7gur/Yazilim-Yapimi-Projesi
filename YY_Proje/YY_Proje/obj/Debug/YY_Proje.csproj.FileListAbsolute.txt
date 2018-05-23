@@ -18,3 +18,17 @@ C:\Users\Lenovo\documents\visual studio 2013\Projects\YY_Proje\YY_Proje\obj\Debu
 C:\Users\Lenovo\Documents\GitHub\Depo\YY_Proje\YY_Proje\bin\Debug\YY_Proje.exe.config
 C:\Users\Lenovo\Documents\GitHub\Depo\YY_Proje\YY_Proje\obj\Debug\YY_Proje.exe
 C:\Users\Lenovo\Documents\GitHub\Depo\YY_Proje\YY_Proje\obj\Debug\YY_Proje.pdb
+C:\Users\Lenovo\Documents\GitHub\Depo\YY_Proje\YY_Proje\bin\Debug\YY_Proje.exe
+C:\Users\Lenovo\Documents\GitHub\Depo\YY_Proje\YY_Proje\bin\Debug\YY_Proje.pdb
+C:\Users\Lenovo\Documents\GitHub\Depo\YY_Proje\YY_Proje\bin\Debug\EntityFramework.dll
+C:\Users\Lenovo\Documents\GitHub\Depo\YY_Proje\YY_Proje\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lenovo\Documents\GitHub\Depo\YY_Proje\YY_Proje\bin\Debug\EntityFramework.xml
+C:\Users\Lenovo\Documents\GitHub\Depo\YY_Proje\YY_Proje\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lenovo\Documents\GitHub\Depo\YY_Proje\YY_Proje\obj\Debug\YY_Proje.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Documents\GitHub\Depo\YY_Proje\YY_Proje\obj\Debug\YY_Proje.frmAnaSayfa.resources
+C:\Users\Lenovo\Documents\GitHub\Depo\YY_Proje\YY_Proje\obj\Debug\YY_Proje.FormGuncelleVeListele.resources
+C:\Users\Lenovo\Documents\GitHub\Depo\YY_Proje\YY_Proje\obj\Debug\YY_Proje.FormScrumTable.resources
+C:\Users\Lenovo\Documents\GitHub\Depo\YY_Proje\YY_Proje\obj\Debug\YY_Proje.frmGiris.resources
+C:\Users\Lenovo\Documents\GitHub\Depo\YY_Proje\YY_Proje\obj\Debug\YY_Proje.Properties.Resources.resources
+C:\Users\Lenovo\Documents\GitHub\Depo\YY_Proje\YY_Proje\obj\Debug\YY_Proje.csproj.GenerateResource.Cache
+C:\Users\Lenovo\Documents\GitHub\Depo\YY_Proje\YY_Proje\obj\Debug\YY_Proje.exe.licenses
