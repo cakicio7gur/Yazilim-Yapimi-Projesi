@@ -25,7 +25,7 @@ namespace YY_Proje
         private void btnGiris_Click(object sender, EventArgs e)
         {
             label3.ForeColor = Color.Red;
-            if(txtKAdi.Text=="cakicio7gur" && txtSifre.Text=="123456")
+            if(txtKAdi.Text=="User" && txtSifre.Text=="123456")
             {
                  frmAnaSayfa af = new frmAnaSayfa();
                  af.Show();

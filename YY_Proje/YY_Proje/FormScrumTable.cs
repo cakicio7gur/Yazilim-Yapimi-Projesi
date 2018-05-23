@@ -26,7 +26,7 @@ namespace YY_Proje
             SqlDataAdapter adtr = new SqlDataAdapter("SELECT Story,Yazar,Tarih FROM Kullanici WHERE Story='" + txtBul.Text + "'", baglanti);
             baglanti.Open();
             adtr.Fill(dtst, "Kullanici");
-            dgwStory.DataSource = dtst.Tables["Kullanici"];
+            dgwStory.DataSource = dtst.Tables["Kullanici"];     
             adtr.Dispose();
             baglanti.Close();
         }
@@ -61,9 +61,6 @@ namespace YY_Proje
 
         }
        
-
-
-
         public void ınProgressGetir()
         {
             dtst = new DataSet();

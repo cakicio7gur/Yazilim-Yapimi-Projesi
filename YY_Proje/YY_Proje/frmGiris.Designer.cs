@@ -32,10 +32,10 @@
             this.btnGiris = new DevExpress.XtraEditors.SimpleButton();
             this.grbGiris = new System.Windows.Forms.GroupBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.txtSifre = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.txtKAdi = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.grbGiris.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -82,24 +82,6 @@
             this.label3.Size = new System.Drawing.Size(0, 22);
             this.label3.TabIndex = 5;
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(146, 184);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(80, 22);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Şifre :";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(66, 138);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(160, 22);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Kullanıcı Adı :";
-            // 
             // txtSifre
             // 
             this.txtSifre.Location = new System.Drawing.Point(255, 181);
@@ -109,13 +91,31 @@
             this.txtSifre.TabIndex = 2;
             this.txtSifre.Text = "123456";
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(146, 184);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(80, 22);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Şifre :";
+            // 
             // txtKAdi
             // 
             this.txtKAdi.Location = new System.Drawing.Point(255, 135);
             this.txtKAdi.Name = "txtKAdi";
             this.txtKAdi.Size = new System.Drawing.Size(258, 29);
             this.txtKAdi.TabIndex = 1;
-            this.txtKAdi.Text = "cakicio7gur";
+            this.txtKAdi.Text = "User";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(66, 138);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(160, 22);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Kullanıcı Adı :";
             // 
             // frmGiris
             // 
