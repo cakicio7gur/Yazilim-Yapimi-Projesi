@@ -141,6 +141,36 @@ namespace YY_Proje
                 }
             }
         }
+        public void notStartedRenklendir()
+        {
+            for (int i = 0; i < dgwNotStarted.Rows.Count; i++)
+            {
+                if (i % 2 == 1)
+                {
+                    dgwNotStarted.Rows[i].DefaultCellStyle.BackColor = Color.Bisque;
+                }
+            }
+        }
+        public void ınProgressRenklendir()
+        {
+            for (int i = 0; i < dgwInProgress.Rows.Count; i++)
+            {
+                if (i % 2 == 1)
+                {
+                    dgwInProgress.Rows[i].DefaultCellStyle.BackColor = Color.Bisque;
+                }
+            }
+        }
+        public void doneRenklendir()
+        {
+            for (int i = 0; i < dgwDone.Rows.Count; i++)
+            {
+                if (i % 2 == 1)
+                {
+                    dgwDone.Rows[i].DefaultCellStyle.BackColor = Color.Bisque;
+                }
+            }
+        }
        
         private void btnStorieBul_Click(object sender, EventArgs e)
         {
